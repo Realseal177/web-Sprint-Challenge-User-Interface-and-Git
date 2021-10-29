@@ -32,10 +32,11 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    /* border:1px solid grey;  */
+    border:1px solid grey; 
 }
 body {
 	line-height: 1;
+    background-color:ivory;
 }
 ol, ul {
 	list-style: none;
@@ -61,6 +62,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin: 3% 0;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -92,7 +94,7 @@ nav {
 a {
     text-decoration: none;
 }
-.top-content, {
+.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -100,21 +102,42 @@ a {
     border-bottom: 1px dashed black;
 }
 
-/* 'About page' only CSS */
-.about-content {
+/* 'About page only' CSS */
+.about-div, .together-div {
+    display: flex;
+    justify-content: center;
+}
+.about-content, .together-content {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+}
+.border {
     border-bottom: 1px dashed black;
 }
-.strategy-content, .work-content {
+.strategy-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 2%;
     width: 100%;
 }
-.strategy1, .strategy2, .work1, .work2 {
-    width: 50%;
-/* End of 'About page' only CSS */
-
+.strategy1, .strategy2, .strategy3, .strategy4 {
+    width: 48%;
+    margin: 3% 0;
+    border-bottom: 1px dashed black;
 }
+button {
+    height: 40px;
+    width: 125px;
+    border: 2px solid #4f4f4f;
+    border-radius: 10px;
+    background-color: ivory;
+    font-size: medium;
+    margin: 4% 0;
+}
+/* End of 'About page only' CSS */
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
