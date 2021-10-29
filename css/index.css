@@ -92,7 +92,7 @@ nav {
 a {
     text-decoration: none;
 }
-.top-content {
+.top-content, {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -100,6 +100,21 @@ a {
     border-bottom: 1px dashed black;
 }
 
+/* 'About page' only CSS */
+.about-content {
+    border-bottom: 1px dashed black;
+}
+.strategy-content, .work-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.strategy1, .strategy2, .work1, .work2 {
+    width: 50%;
+/* End of 'About page' only CSS */
+
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
