@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey; 
+    /* border:1px solid grey;  */
 }
 body {
 	line-height: 1;
@@ -114,6 +114,7 @@ a {
 }
 .border {
     border-bottom: 1px dashed black;
+    padding: 2%;
 }
 .strategy-content {
     display: flex;
@@ -216,6 +217,7 @@ button {
 footer {
     width: 100%;
     background: black;
+    margin: 4% 0;
 }
 
 footer nav {
